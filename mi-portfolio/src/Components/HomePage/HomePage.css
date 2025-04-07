@@ -1,0 +1,27 @@
+.profile-photo {
+    width: 150px; 
+    height: auto; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border-color: black;
+  }
+  
+  .overlay {
+    position: left; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    color: white; 
+    padding: 20px;
+  }
+  
+  .name {
+    margin-top: 10px;
+    font-size: 2rem; 
+  }
+  
+  .portfolio-button {
+    margin-top: 20px;
+  }
+  
