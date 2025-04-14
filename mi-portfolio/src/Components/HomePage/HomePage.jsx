@@ -21,7 +21,7 @@ const HomePage = () => {
        <FaJsSquare size={40} color="#F7DF1E" />
       <FaReact size={40} color="#61DBFB" />
      </h6>
-          <Button href="/portfolio" className="portfolio-button">Ir al Portfolio</Button>
+          <button href="/portfolio" class="portfolio-button">Ir al Portfolio</button>
         </div>
       </div>
     );

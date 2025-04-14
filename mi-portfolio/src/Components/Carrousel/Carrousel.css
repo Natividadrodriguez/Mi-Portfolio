@@ -1,0 +1,51 @@
+.carrousel .carousel-indicators {
+    display: none;
+  }
+.carrousel .carousel-control-prev,
+.carrousel .carousel-control-next {
+  display: none;
+}
+.carrousel-container {
+    width: 100%; 
+    height: 100vh; 
+    overflow: hidden; 
+    position: relative; 
+  }
+
+.carrousel,
+.carrousel .carousel-inner,
+.carrousel .carousel-item {
+  width: 100%;
+  height: 100vh;
+}
+
+  .carrousel {
+    width: 100%; 
+    height: 100%; 
+  }
+
+  .carrousel img {
+    width: 100%; 
+    height: 100vh; 
+    object-fit: cover; 
+    object-position: center center; 
+  }
+
+  @media (max-width: 768px) {
+    .carrousel-container {
+      height: 100vh; 
+    }
+    .carrousel img {
+      object-position: center; 
+    }
+  }
+
+
+  @media (min-width: 1200px) {
+    .carrousel-container {
+      height: 100vh; 
+    }
+    .carrousel {
+      max-width: 100vw; 
+    }
+  } 
