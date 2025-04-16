@@ -151,6 +151,31 @@ const PortfolioPage = () => {
       </div>
       
     </section>
+
+    <section className="container">
+      <div className="row">
+        <h2 className="mb-5">Contacto</h2>
+<div className='col-12 col-md-4 text-center mb-4'>
+<img src={gmailIcon} alt="Gmail" width="40" height="32" className="mb-2" />
+<p>natividad.m1990@gmail.com</p>
+</div>
+
+<div className='col-12 col-md-4 text-center mb-4'>
+<a href="http://www.linkedin.com/in/rodrigueznatividad" target="_blank" rel="noopener noreferrer">
+        <img src={linkedinIcon} alt="LinkedIn" width="32" height="32" className="mb-2" />
+      </a>
+      <p>/rodrigueznatividad</p>
+</div>
+
+<div className='col-12 col-md-4 text-center mb-4'>
+<a href="https://github.com/Natividadrodriguez" target="_blank" rel="noopener noreferrer">
+        <img src={githubIcon} alt="GitHub" width="32" height="32" className="mb-2" />
+      </a>
+      <p>/Natividadrodriguez</p>
+</div>
+
+      </div>
+    </section>
     
     </>
   );
