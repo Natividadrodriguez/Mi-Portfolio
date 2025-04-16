@@ -24,7 +24,7 @@ const HomePage = () => {
       <FaReact size={40} color="#61DBFB" />
      </h6>
      <Link to="/portfolio"> 
-     <button class="portfolio-button">Ir al Portfolio</button>
+     <button class="my-button">Ir al Portfolio</button>
      </Link>
          
         </div>

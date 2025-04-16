@@ -36,7 +36,7 @@
     font-size: 2rem; 
   }
   
-  .portfolio-button {
+  .my-button {
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
@@ -48,14 +48,15 @@
     outline: none;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
     transition: all 0.3s ease;
+    text-decoration: none;
   }
   
-  .portfolio-button:hover {
+  .my-button:hover {
     background-color: #44073c; 
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8); 
   }
   
-  .portfolio-button:active {
+  .my-button:active {
     background-color: #350831; 
     box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.8); 
     transform: translateY(4px); 

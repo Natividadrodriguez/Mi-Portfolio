@@ -13,6 +13,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 
+
 const PortfolioPage = () => {
   
   return (
@@ -69,8 +70,11 @@ const PortfolioPage = () => {
     <section className="container">
       <div className="row">
         <h2 className="mb-5">Proyectos</h2>
-        <div className="d-flex col-12 justify-content-center mb-4">
-        <Card className="proyectos" style={{ width: '18rem', margin: '0px 20px' }}>
+        <div className="d-flex flex-column flex-md-row justify-content-center align-items-center flex-wrap">
+
+   <div className="row justify-content-center mb-5 mb-md-0">
+
+    <Card className="proyectos mb-4 mb-md-0" style={{ width: '18rem', margin: '0px 20px', borderRadius: '8px' }}>
         <div style={{ height: '180px', overflow: 'hidden' }}>
     <iframe
       src="https://pay2win-two.vercel.app/"
@@ -84,15 +88,26 @@ const PortfolioPage = () => {
     />
   </div>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Pay2Win</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Aplicación inspirada en Steam, desarrollada con React. Desde la sección de administración (accesible tras iniciar sesión), se puede gestionar el contenido: agregar, editar o eliminar juegos. La aplicación utiliza React Router para la navegacion entre seccions y Firebase para la autenticación de usuarios.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <a 
+  href="https://pay2win-two.vercel.app/" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="my-button"
+>
+  Visitar
+</a>
       </Card.Body>
     </Card>
-    <Card className="proyectos" style={{ width: '18rem', margin: '0px 20px' }}>
+          </div>
+
+        
+
+<div className="row justify-content-center">
+<Card className="proyectos" style={{ width: '18rem', margin: '0px 20px',borderRadius: '8px'  }}>
     <div
   style={{
     height: '180px',
@@ -112,15 +127,27 @@ const PortfolioPage = () => {
   />
 </div>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Movielife+</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Movielife+ es una página web de práctica que emula una plataforma de streaming. Desarrollada con HTML, CSS y Bootstrap, la página ofrece una interfaz dinámica y responsiva, permitiendo a los usuarios navegar por una selección de contenido de forma fácil y visualmente atractiva.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <a 
+  href="https://movielifeplus.netlify.app/" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="my-button"
+>
+  Visitar
+</a>
       </Card.Body>
     </Card>
-        </div>
+            
+</div>
+
+ 
+    </div>
+   
+        
       </div>
       
     </section>
