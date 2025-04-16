@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from "./Components/HomePage/HomePage"; 
 import Carrousel from "./Components/Carrousel/Carrousel"; 
 import PortfolioPage from "./Components/PortfolioPage/PortfolioPage";
+import MyNavbar from "./Components/Navbar/Navbar";
 import './app.css'
 
 const App = () => {
@@ -14,7 +15,15 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         
        
-        <Route path="/portfolio" element={<PortfolioPage />} />
+        <Route
+          path="/portfolio"
+          element={
+            <>
+              <MyNavbar />
+              <PortfolioPage />
+            </>
+          }
+        />
       </Routes>
     </Router>
   );

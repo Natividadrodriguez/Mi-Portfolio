@@ -1,0 +1,27 @@
+
+  section.container {
+    background-color: transparent;
+    padding: 1rem;
+    color: white; 
+  }
+  
+  
+  section.container > div {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  .proyectos{
+    background-color:#690b4d;
+    color: white;
+  }
+
+  .proyectos {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+  
+  .proyectos:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); 
+  }

@@ -1,0 +1,9 @@
+.MyNavbar {
+    background: linear-gradient(0deg, rgba(40, 40, 40, 0.8) 0%, rgba(46, 46, 46, 0.5) 100%);
+    
+    
+}
+
+.MyNavbar .nav-link {
+    color: white; 
+  }
