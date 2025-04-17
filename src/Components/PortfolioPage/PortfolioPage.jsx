@@ -1,5 +1,5 @@
 import React from 'react';
-import './PortfolioPage.css'
+import './Portfoliopage.css'
 import foto from '../Assets/20250414_215517.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
