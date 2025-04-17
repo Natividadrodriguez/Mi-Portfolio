@@ -70,9 +70,9 @@ const PortfolioPage = () => {
     <section className="container" id="proyectos">
       <div className="row">
         <h2 className="mb-5">Proyectos</h2>
-        <div className="d-flex flex-column flex-md-row justify-content-center align-items-center flex-wrap">
+        <div className="d-flex flex-column flex-md-row justify-content-center align-items-center flex-wrap" style={{ gap: '30px' }} >
 
-   <div className="row justify-content-center mb-5 mb-md-0">
+   <div className="row justify-content-center mb-3 mb-md-0">
 
     <Card className="proyectos mb-4 mb-md-0" style={{ width: '18rem', margin: '0px 20px', borderRadius: '8px' }}>
         <div style={{ height: '180px', overflow: 'hidden' }}>
