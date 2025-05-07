@@ -90,7 +90,7 @@ const PortfolioPage = () => {
       <Card.Body>
         <Card.Title>Pay2Win</Card.Title>
         <Card.Text>
-        Aplicación inspirada en Steam, desarrollada con React. Desde la sección de administración (accesible tras iniciar sesión), se puede gestionar el contenido: agregar, editar o eliminar juegos. La aplicación utiliza React Router para la navegacion entre seccions y Firebase para la autenticación de usuarios.
+        Aplicación inspirada en Steam, desarrollada con React. Desde la sección de administración (accesible tras iniciar sesión), se puede gestionar el contenido: agregar, editar o eliminar juegos. La aplicación utiliza React Router para la navegacion entre secciones y Firebase para la autenticación de usuarios.
         </Card.Text>
         <a 
   href="https://pay2win-two.vercel.app/" 
